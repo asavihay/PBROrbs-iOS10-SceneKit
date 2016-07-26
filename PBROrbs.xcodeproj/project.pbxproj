@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB93A2A1D4398F100623F09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB93A291D4398F100623F09 /* AppDelegate.swift */; };
+		3CB93A2E1D4398F100623F09 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB93A2D1D4398F100623F09 /* GameViewController.swift */; };
+		3CB93A311D4398F100623F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A2F1D4398F100623F09 /* Main.storyboard */; };
+		3CB93A331D4398F100623F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A321D4398F100623F09 /* Assets.xcassets */; };
+		3CB93A361D4398F100623F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A341D4398F100623F09 /* LaunchScreen.storyboard */; };
+		3CB93A5A1D439B1000623F09 /* spherical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A3F1D439B1000623F09 /* spherical.jpg */; };
+		3CB93A5B1D439B1000623F09 /* sphericalBlurred.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A401D439B1000623F09 /* sphericalBlurred.png */; };
+		3CB93A5C1D439B1000623F09 /* bamboo-wood-semigloss-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A431D439B1000623F09 /* bamboo-wood-semigloss-albedo.png */; };
+		3CB93A5E1D439B1000623F09 /* bamboo-wood-semigloss-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A451D439B1000623F09 /* bamboo-wood-semigloss-metal.png */; };
+		3CB93A5F1D439B1000623F09 /* bamboo-wood-semigloss-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A461D439B1000623F09 /* bamboo-wood-semigloss-normal.png */; };
+		3CB93A601D439B1000623F09 /* bamboo-wood-semigloss-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A471D439B1000623F09 /* bamboo-wood-semigloss-roughness.png */; };
+		3CB93A611D439B1000623F09 /* oakfloor2-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A491D439B1000623F09 /* oakfloor2-albedo.png */; };
+		3CB93A631D439B1000623F09 /* oakfloor2-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A4B1D439B1000623F09 /* oakfloor2-normal.png */; };
+		3CB93A641D439B1000623F09 /* oakfloor2-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A4C1D439B1000623F09 /* oakfloor2-roughness.png */; };
+		3CB93A651D439B1000623F09 /* rustediron-streaks-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A4E1D439B1000623F09 /* rustediron-streaks-albedo.png */; };
+		3CB93A661D439B1000623F09 /* rustediron-streaks-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A4F1D439B1000623F09 /* rustediron-streaks-metal.png */; };
+		3CB93A671D439B1000623F09 /* rustediron-streaks-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A501D439B1000623F09 /* rustediron-streaks-normal.png */; };
+		3CB93A681D439B1000623F09 /* rustediron-streaks-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A511D439B1000623F09 /* rustediron-streaks-roughness.png */; };
+		3CB93A691D439B1000623F09 /* scuffed-plastic-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A531D439B1000623F09 /* scuffed-plastic-albedo.png */; };
+		3CB93A6B1D439B1000623F09 /* scuffed-plastic-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A551D439B1000623F09 /* scuffed-plastic-metal.png */; };
+		3CB93A6C1D439B1000623F09 /* scuffed-plastic-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A561D439B1000623F09 /* scuffed-plastic-normal.png */; };
+		3CB93A6D1D439B1000623F09 /* scuffed-plastic-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A571D439B1000623F09 /* scuffed-plastic-roughness.png */; };
+		3CB93A6E1D439B1000623F09 /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A591D439B1000623F09 /* sphere.obj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CB93A261D4398F100623F09 /* PBROrbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBROrbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB93A291D4398F100623F09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CB93A2D1D4398F100623F09 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3CB93A301D4398F100623F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CB93A321D4398F100623F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CB93A351D4398F100623F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CB93A371D4398F100623F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB93A3F1D439B1000623F09 /* spherical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spherical.jpg; sourceTree = "<group>"; };
+		3CB93A401D439B1000623F09 /* sphericalBlurred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sphericalBlurred.png; sourceTree = "<group>"; };
+		3CB93A431D439B1000623F09 /* bamboo-wood-semigloss-albedo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bamboo-wood-semigloss-albedo.png"; sourceTree = "<group>"; };
+		3CB93A451D439B1000623F09 /* bamboo-wood-semigloss-metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bamboo-wood-semigloss-metal.png"; sourceTree = "<group>"; };
+		3CB93A461D439B1000623F09 /* bamboo-wood-semigloss-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bamboo-wood-semigloss-normal.png"; sourceTree = "<group>"; };
+		3CB93A471D439B1000623F09 /* bamboo-wood-semigloss-roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bamboo-wood-semigloss-roughness.png"; sourceTree = "<group>"; };
+		3CB93A491D439B1000623F09 /* oakfloor2-albedo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oakfloor2-albedo.png"; sourceTree = "<group>"; };
+		3CB93A4B1D439B1000623F09 /* oakfloor2-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oakfloor2-normal.png"; sourceTree = "<group>"; };
+		3CB93A4C1D439B1000623F09 /* oakfloor2-roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oakfloor2-roughness.png"; sourceTree = "<group>"; };
+		3CB93A4E1D439B1000623F09 /* rustediron-streaks-albedo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-streaks-albedo.png"; sourceTree = "<group>"; };
+		3CB93A4F1D439B1000623F09 /* rustediron-streaks-metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-streaks-metal.png"; sourceTree = "<group>"; };
+		3CB93A501D439B1000623F09 /* rustediron-streaks-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-streaks-normal.png"; sourceTree = "<group>"; };
+		3CB93A511D439B1000623F09 /* rustediron-streaks-roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-streaks-roughness.png"; sourceTree = "<group>"; };
+		3CB93A531D439B1000623F09 /* scuffed-plastic-albedo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scuffed-plastic-albedo.png"; sourceTree = "<group>"; };
+		3CB93A551D439B1000623F09 /* scuffed-plastic-metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scuffed-plastic-metal.png"; sourceTree = "<group>"; };
+		3CB93A561D439B1000623F09 /* scuffed-plastic-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scuffed-plastic-normal.png"; sourceTree = "<group>"; };
+		3CB93A571D439B1000623F09 /* scuffed-plastic-roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scuffed-plastic-roughness.png"; sourceTree = "<group>"; };
+		3CB93A591D439B1000623F09 /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB93A231D4398F100623F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB93A1D1D4398F100623F09 = {
+			isa = PBXGroup;
+			children = (
+				3CB93A281D4398F100623F09 /* PBROrbs */,
+				3CB93A271D4398F100623F09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB93A271D4398F100623F09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB93A261D4398F100623F09 /* PBROrbs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB93A281D4398F100623F09 /* PBROrbs */ = {
+			isa = PBXGroup;
+			children = (
+				3CB93A3D1D439B1000623F09 /* Assets */,
+				3CB93A291D4398F100623F09 /* AppDelegate.swift */,
+				3CB93A2D1D4398F100623F09 /* GameViewController.swift */,
+				3CB93A2F1D4398F100623F09 /* Main.storyboard */,
+				3CB93A321D4398F100623F09 /* Assets.xcassets */,
+				3CB93A341D4398F100623F09 /* LaunchScreen.storyboard */,
+				3CB93A371D4398F100623F09 /* Info.plist */,
+			);
+			path = PBROrbs;
+			sourceTree = "<group>";
+		};
+		3CB93A3D1D439B1000623F09 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3CB93A3E1D439B1000623F09 /* Environment */,
+				3CB93A411D439B1000623F09 /* Materials */,
+				3CB93A581D439B1000623F09 /* Objects */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		3CB93A3E1D439B1000623F09 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				3CB93A3F1D439B1000623F09 /* spherical.jpg */,
+				3CB93A401D439B1000623F09 /* sphericalBlurred.png */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		3CB93A411D439B1000623F09 /* Materials */ = {
+			isa = PBXGroup;
+			children = (
+				3CB93A421D439B1000623F09 /* bamboo-wood-semigloss */,
+				3CB93A481D439B1000623F09 /* oakfloor2 */,
+				3CB93A4D1D439B1000623F09 /* rustediron-streaks */,
+				3CB93A521D439B1000623F09 /* scuffed-plastic */,
+			);
+			path = Materials;
+			sourceTree = "<group>";
+		};
+		3CB93A421D439B1000623F09 /* bamboo-wood-semigloss */ = {
+			isa = PBXGroup;
+			children = (
+				3CB93A431D439B1000623F09 /* bamboo-wood-semigloss-albedo.png */,
+				3CB93A451D439B1000623F09 /* bamboo-wood-semigloss-metal.png */,
+				3CB93A461D439B1000623F09 /* bamboo-wood-semigloss-normal.png */,
+				3CB93A471D439B1000623F09 /* bamboo-wood-semigloss-roughness.png */,
+			);
+			path = "bamboo-wood-semigloss";
+			sourceTree = "<group>";
+		};
+		3CB93A481D439B1000623F09 /* oakfloor2 */ = {
+			isa = PBXGroup;
+			children = (
+				3CB93A491D439B1000623F09 /* oakfloor2-albedo.png */,
+				3CB93A4B1D439B1000623F09 /* oakfloor2-normal.png */,
+				3CB93A4C1D439B1000623F09 /* oakfloor2-roughness.png */,
+			);
+			path = oakfloor2;
+			sourceTree = "<group>";
+		};
+		3CB93A4D1D439B1000623F09 /* rustediron-streaks */ = {
+			isa = PBXGroup;
+			children = (
+				3CB93A4E1D439B1000623F09 /* rustediron-streaks-albedo.png */,
+				3CB93A4F1D439B1000623F09 /* rustediron-streaks-metal.png */,
+				3CB93A501D439B1000623F09 /* rustediron-streaks-normal.png */,
+				3CB93A511D439B1000623F09 /* rustediron-streaks-roughness.png */,
+			);
+			path = "rustediron-streaks";
+			sourceTree = "<group>";
+		};
+		3CB93A521D439B1000623F09 /* scuffed-plastic */ = {
+			isa = PBXGroup;
+			children = (
+				3CB93A531D439B1000623F09 /* scuffed-plastic-albedo.png */,
+				3CB93A551D439B1000623F09 /* scuffed-plastic-metal.png */,
+				3CB93A561D439B1000623F09 /* scuffed-plastic-normal.png */,
+				3CB93A571D439B1000623F09 /* scuffed-plastic-roughness.png */,
+			);
+			path = "scuffed-plastic";
+			sourceTree = "<group>";
+		};
+		3CB93A581D439B1000623F09 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				3CB93A591D439B1000623F09 /* sphere.obj */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB93A251D4398F100623F09 /* PBROrbs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB93A3A1D4398F100623F09 /* Build configuration list for PBXNativeTarget "PBROrbs" */;
+			buildPhases = (
+				3CB93A221D4398F100623F09 /* Sources */,
+				3CB93A231D4398F100623F09 /* Frameworks */,
+				3CB93A241D4398F100623F09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PBROrbs;
+			productName = PBROrbs;
+			productReference = 3CB93A261D4398F100623F09 /* PBROrbs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB93A1E1D4398F100623F09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MediumBlog;
+				TargetAttributes = {
+					3CB93A251D4398F100623F09 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3CB93A211D4398F100623F09 /* Build configuration list for PBXProject "PBROrbs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CB93A1D1D4398F100623F09;
+			productRefGroup = 3CB93A271D4398F100623F09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB93A251D4398F100623F09 /* PBROrbs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CB93A241D4398F100623F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB93A361D4398F100623F09 /* LaunchScreen.storyboard in Resources */,
+				3CB93A691D439B1000623F09 /* scuffed-plastic-albedo.png in Resources */,
+				3CB93A5B1D439B1000623F09 /* sphericalBlurred.png in Resources */,
+				3CB93A651D439B1000623F09 /* rustediron-streaks-albedo.png in Resources */,
+				3CB93A5C1D439B1000623F09 /* bamboo-wood-semigloss-albedo.png in Resources */,
+				3CB93A671D439B1000623F09 /* rustediron-streaks-normal.png in Resources */,
+				3CB93A5E1D439B1000623F09 /* bamboo-wood-semigloss-metal.png in Resources */,
+				3CB93A6B1D439B1000623F09 /* scuffed-plastic-metal.png in Resources */,
+				3CB93A331D4398F100623F09 /* Assets.xcassets in Resources */,
+				3CB93A631D439B1000623F09 /* oakfloor2-normal.png in Resources */,
+				3CB93A6E1D439B1000623F09 /* sphere.obj in Resources */,
+				3CB93A681D439B1000623F09 /* rustediron-streaks-roughness.png in Resources */,
+				3CB93A311D4398F100623F09 /* Main.storyboard in Resources */,
+				3CB93A6C1D439B1000623F09 /* scuffed-plastic-normal.png in Resources */,
+				3CB93A661D439B1000623F09 /* rustediron-streaks-metal.png in Resources */,
+				3CB93A5F1D439B1000623F09 /* bamboo-wood-semigloss-normal.png in Resources */,
+				3CB93A5A1D439B1000623F09 /* spherical.jpg in Resources */,
+				3CB93A611D439B1000623F09 /* oakfloor2-albedo.png in Resources */,
+				3CB93A601D439B1000623F09 /* bamboo-wood-semigloss-roughness.png in Resources */,
+				3CB93A641D439B1000623F09 /* oakfloor2-roughness.png in Resources */,
+				3CB93A6D1D439B1000623F09 /* scuffed-plastic-roughness.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB93A221D4398F100623F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB93A2E1D4398F100623F09 /* GameViewController.swift in Sources */,
+				3CB93A2A1D4398F100623F09 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CB93A2F1D4398F100623F09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB93A301D4398F100623F09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CB93A341D4398F100623F09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB93A351D4398F100623F09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CB93A381D4398F100623F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CB93A391D4398F100623F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB93A3B1D4398F100623F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PBROrbs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MediumBlog.PBROrbs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3CB93A3C1D4398F100623F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PBROrbs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MediumBlog.PBROrbs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB93A211D4398F100623F09 /* Build configuration list for PBXProject "PBROrbs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB93A381D4398F100623F09 /* Debug */,
+				3CB93A391D4398F100623F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB93A3A1D4398F100623F09 /* Build configuration list for PBXNativeTarget "PBROrbs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB93A3B1D4398F100623F09 /* Debug */,
+				3CB93A3C1D4398F100623F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB93A1E1D4398F100623F09 /* Project object */;
+}
