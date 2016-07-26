@@ -23,6 +23,8 @@ class GameViewController: UIViewController {
         // create a new scene
         let scene = SCNScene(named: "sphere.obj")!
         
+        // select the sphere node - As we know we only loaded one object
+        // we select the first item on the children list
         let sphereNode = scene.rootNode.childNodes[0]
         
         // create and add a camera to the scene
@@ -69,10 +71,9 @@ class GameViewController: UIViewController {
         
         /* 
          * The following was not a part of my blog post but are pretty easy to understand:
-         * To make the Orb cool, we'll add animation to the orb
+         * To make the Orb cool, we'll add rotation animation to it
          */
         
-        // animate the 3d object
         sphereNode.run(SCNAction.repeatForever(SCNAction.rotateBy(x: 1, y: 1, z: 1, duration: 10)))
     }
     
