@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "76BF8B661D5C1D0B00AB450A"
+               BuildableName = "PBROrbs WatchKit.app"
+               BlueprintName = "PBROrbs WatchKit"
+               ReferencedContainer = "container:PBROrbs.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "3CB93A251D4398F100623F09"
                BuildableName = "PBROrbs.app"
                BlueprintName = "PBROrbs"
@@ -32,9 +46,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3CB93A251D4398F100623F09"
-            BuildableName = "PBROrbs.app"
-            BlueprintName = "PBROrbs"
+            BlueprintIdentifier = "76BF8B661D5C1D0B00AB450A"
+            BuildableName = "PBROrbs WatchKit.app"
+            BlueprintName = "PBROrbs WatchKit"
             ReferencedContainer = "container:PBROrbs.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -51,16 +65,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/PBROrbs">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3CB93A251D4398F100623F09"
-            BuildableName = "PBROrbs.app"
-            BlueprintName = "PBROrbs"
+            BlueprintIdentifier = "76BF8B661D5C1D0B00AB450A"
+            BuildableName = "PBROrbs WatchKit.app"
+            BlueprintName = "PBROrbs WatchKit"
             ReferencedContainer = "container:PBROrbs.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "76BF8B661D5C1D0B00AB450A"
+            BuildableName = "PBROrbs WatchKit.app"
+            BlueprintName = "PBROrbs WatchKit"
+            ReferencedContainer = "container:PBROrbs.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +95,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/PBROrbs">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3CB93A251D4398F100623F09"
-            BuildableName = "PBROrbs.app"
-            BlueprintName = "PBROrbs"
+            BlueprintIdentifier = "76BF8B661D5C1D0B00AB450A"
+            BuildableName = "PBROrbs WatchKit.app"
+            BlueprintName = "PBROrbs WatchKit"
             ReferencedContainer = "container:PBROrbs.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "76BF8B661D5C1D0B00AB450A"
+            BuildableName = "PBROrbs WatchKit.app"
+            BlueprintName = "PBROrbs WatchKit"
+            ReferencedContainer = "container:PBROrbs.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
