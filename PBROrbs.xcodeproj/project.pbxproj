@@ -30,7 +30,94 @@
 		3CB93A6C1D439B1000623F09 /* scuffed-plastic-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A561D439B1000623F09 /* scuffed-plastic-normal.png */; };
 		3CB93A6D1D439B1000623F09 /* scuffed-plastic-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A571D439B1000623F09 /* scuffed-plastic-roughness.png */; };
 		3CB93A6E1D439B1000623F09 /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A591D439B1000623F09 /* sphere.obj */; };
+		7678E3171D5C1F5A00697B0E /* sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = 3CB93A591D439B1000623F09 /* sphere.obj */; };
+		76BF8B6B1D5C1D0B00AB450A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BF8B691D5C1D0B00AB450A /* Interface.storyboard */; };
+		76BF8B6D1D5C1D0B00AB450A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BF8B6C1D5C1D0B00AB450A /* Assets.xcassets */; };
+		76BF8B741D5C1D0C00AB450A /* PBROrbs WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 76BF8B731D5C1D0B00AB450A /* PBROrbs WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		76BF8B791D5C1D0C00AB450A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF8B781D5C1D0C00AB450A /* InterfaceController.swift */; };
+		76BF8B7B1D5C1D0C00AB450A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BF8B7A1D5C1D0C00AB450A /* art.scnassets */; };
+		76BF8B7D1D5C1D0C00AB450A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF8B7C1D5C1D0C00AB450A /* ExtensionDelegate.swift */; };
+		76BF8B7F1D5C1D0C00AB450A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BF8B7E1D5C1D0C00AB450A /* Assets.xcassets */; };
+		76BF8B831D5C1D0C00AB450A /* PBROrbs WatchKit.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 76BF8B671D5C1D0B00AB450A /* PBROrbs WatchKit.app */; };
+		76BF8B8E1D5C1DA100AB450A /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF8B8D1D5C1DA100AB450A /* SceneManager.swift */; };
+		76CC25D31D5C3DBD00315F02 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF8B8D1D5C1DA100AB450A /* SceneManager.swift */; };
+		76D0BCA01D5C484B0042C18F /* spherical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC8A1D5C484B0042C18F /* spherical.jpg */; };
+		76D0BCA11D5C484B0042C18F /* spherical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC8A1D5C484B0042C18F /* spherical.jpg */; };
+		76D0BCA21D5C484B0042C18F /* sphericalBlurred.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC8B1D5C484B0042C18F /* sphericalBlurred.png */; };
+		76D0BCA31D5C484B0042C18F /* sphericalBlurred.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC8B1D5C484B0042C18F /* sphericalBlurred.png */; };
+		76D0BCA41D5C484B0042C18F /* bamboo-wood-semigloss-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC8E1D5C484B0042C18F /* bamboo-wood-semigloss-albedo.png */; };
+		76D0BCA51D5C484B0042C18F /* bamboo-wood-semigloss-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC8E1D5C484B0042C18F /* bamboo-wood-semigloss-albedo.png */; };
+		76D0BCA61D5C484B0042C18F /* bamboo-wood-semigloss-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC8F1D5C484B0042C18F /* bamboo-wood-semigloss-metal.png */; };
+		76D0BCA71D5C484B0042C18F /* bamboo-wood-semigloss-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC8F1D5C484B0042C18F /* bamboo-wood-semigloss-metal.png */; };
+		76D0BCA81D5C484B0042C18F /* bamboo-wood-semigloss-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC901D5C484B0042C18F /* bamboo-wood-semigloss-normal.png */; };
+		76D0BCA91D5C484C0042C18F /* bamboo-wood-semigloss-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC901D5C484B0042C18F /* bamboo-wood-semigloss-normal.png */; };
+		76D0BCAA1D5C484C0042C18F /* bamboo-wood-semigloss-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC911D5C484B0042C18F /* bamboo-wood-semigloss-roughness.png */; };
+		76D0BCAB1D5C484C0042C18F /* bamboo-wood-semigloss-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC911D5C484B0042C18F /* bamboo-wood-semigloss-roughness.png */; };
+		76D0BCAC1D5C484C0042C18F /* oakfloor2-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC931D5C484B0042C18F /* oakfloor2-albedo.png */; };
+		76D0BCAD1D5C484C0042C18F /* oakfloor2-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC931D5C484B0042C18F /* oakfloor2-albedo.png */; };
+		76D0BCAE1D5C484C0042C18F /* oakfloor2-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC941D5C484B0042C18F /* oakfloor2-normal.png */; };
+		76D0BCAF1D5C484C0042C18F /* oakfloor2-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC941D5C484B0042C18F /* oakfloor2-normal.png */; };
+		76D0BCB01D5C484C0042C18F /* oakfloor2-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC951D5C484B0042C18F /* oakfloor2-roughness.png */; };
+		76D0BCB11D5C484C0042C18F /* oakfloor2-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC951D5C484B0042C18F /* oakfloor2-roughness.png */; };
+		76D0BCB21D5C484C0042C18F /* rustediron-streaks-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC971D5C484B0042C18F /* rustediron-streaks-albedo.png */; };
+		76D0BCB31D5C484C0042C18F /* rustediron-streaks-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC971D5C484B0042C18F /* rustediron-streaks-albedo.png */; };
+		76D0BCB41D5C484C0042C18F /* rustediron-streaks-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC981D5C484B0042C18F /* rustediron-streaks-metal.png */; };
+		76D0BCB51D5C484C0042C18F /* rustediron-streaks-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC981D5C484B0042C18F /* rustediron-streaks-metal.png */; };
+		76D0BCB61D5C484C0042C18F /* rustediron-streaks-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC991D5C484B0042C18F /* rustediron-streaks-normal.png */; };
+		76D0BCB71D5C484C0042C18F /* rustediron-streaks-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC991D5C484B0042C18F /* rustediron-streaks-normal.png */; };
+		76D0BCB81D5C484C0042C18F /* rustediron-streaks-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC9A1D5C484B0042C18F /* rustediron-streaks-roughness.png */; };
+		76D0BCB91D5C484C0042C18F /* rustediron-streaks-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC9A1D5C484B0042C18F /* rustediron-streaks-roughness.png */; };
+		76D0BCBA1D5C484C0042C18F /* scuffed-plastic-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC9C1D5C484B0042C18F /* scuffed-plastic-albedo.png */; };
+		76D0BCBB1D5C484C0042C18F /* scuffed-plastic-albedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC9C1D5C484B0042C18F /* scuffed-plastic-albedo.png */; };
+		76D0BCBC1D5C484C0042C18F /* scuffed-plastic-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC9D1D5C484B0042C18F /* scuffed-plastic-metal.png */; };
+		76D0BCBD1D5C484C0042C18F /* scuffed-plastic-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC9D1D5C484B0042C18F /* scuffed-plastic-metal.png */; };
+		76D0BCBE1D5C484C0042C18F /* scuffed-plastic-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC9E1D5C484B0042C18F /* scuffed-plastic-normal.png */; };
+		76D0BCBF1D5C484C0042C18F /* scuffed-plastic-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC9E1D5C484B0042C18F /* scuffed-plastic-normal.png */; };
+		76D0BCC01D5C484C0042C18F /* scuffed-plastic-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC9F1D5C484B0042C18F /* scuffed-plastic-roughness.png */; };
+		76D0BCC11D5C484C0042C18F /* scuffed-plastic-roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D0BC9F1D5C484B0042C18F /* scuffed-plastic-roughness.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76BF8B751D5C1D0C00AB450A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB93A1E1D4398F100623F09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76BF8B721D5C1D0B00AB450A;
+			remoteInfo = "PBROrbs WatchKit Extension";
+		};
+		76BF8B811D5C1D0C00AB450A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB93A1E1D4398F100623F09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76BF8B661D5C1D0B00AB450A;
+			remoteInfo = "PBROrbs WatchKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		76BF8B891D5C1D0C00AB450A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				76BF8B741D5C1D0C00AB450A /* PBROrbs WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BF8B8B1D5C1D0C00AB450A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				76BF8B831D5C1D0C00AB450A /* PBROrbs WatchKit.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3CB93A261D4398F100623F09 /* PBROrbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBROrbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,10 +145,45 @@
 		3CB93A561D439B1000623F09 /* scuffed-plastic-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scuffed-plastic-normal.png"; sourceTree = "<group>"; };
 		3CB93A571D439B1000623F09 /* scuffed-plastic-roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scuffed-plastic-roughness.png"; sourceTree = "<group>"; };
 		3CB93A591D439B1000623F09 /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
+		76BF8B671D5C1D0B00AB450A /* PBROrbs WatchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PBROrbs WatchKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BF8B6A1D5C1D0B00AB450A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		76BF8B6C1D5C1D0B00AB450A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76BF8B6E1D5C1D0B00AB450A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76BF8B731D5C1D0B00AB450A /* PBROrbs WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PBROrbs WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BF8B781D5C1D0C00AB450A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		76BF8B7A1D5C1D0C00AB450A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		76BF8B7C1D5C1D0C00AB450A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		76BF8B7E1D5C1D0C00AB450A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76BF8B801D5C1D0C00AB450A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76BF8B8D1D5C1DA100AB450A /* SceneManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
+		76D0BC8A1D5C484B0042C18F /* spherical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spherical.jpg; sourceTree = "<group>"; };
+		76D0BC8B1D5C484B0042C18F /* sphericalBlurred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sphericalBlurred.png; sourceTree = "<group>"; };
+		76D0BC8E1D5C484B0042C18F /* bamboo-wood-semigloss-albedo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bamboo-wood-semigloss-albedo.png"; sourceTree = "<group>"; };
+		76D0BC8F1D5C484B0042C18F /* bamboo-wood-semigloss-metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bamboo-wood-semigloss-metal.png"; sourceTree = "<group>"; };
+		76D0BC901D5C484B0042C18F /* bamboo-wood-semigloss-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bamboo-wood-semigloss-normal.png"; sourceTree = "<group>"; };
+		76D0BC911D5C484B0042C18F /* bamboo-wood-semigloss-roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bamboo-wood-semigloss-roughness.png"; sourceTree = "<group>"; };
+		76D0BC931D5C484B0042C18F /* oakfloor2-albedo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oakfloor2-albedo.png"; sourceTree = "<group>"; };
+		76D0BC941D5C484B0042C18F /* oakfloor2-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oakfloor2-normal.png"; sourceTree = "<group>"; };
+		76D0BC951D5C484B0042C18F /* oakfloor2-roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oakfloor2-roughness.png"; sourceTree = "<group>"; };
+		76D0BC971D5C484B0042C18F /* rustediron-streaks-albedo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-streaks-albedo.png"; sourceTree = "<group>"; };
+		76D0BC981D5C484B0042C18F /* rustediron-streaks-metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-streaks-metal.png"; sourceTree = "<group>"; };
+		76D0BC991D5C484B0042C18F /* rustediron-streaks-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-streaks-normal.png"; sourceTree = "<group>"; };
+		76D0BC9A1D5C484B0042C18F /* rustediron-streaks-roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rustediron-streaks-roughness.png"; sourceTree = "<group>"; };
+		76D0BC9C1D5C484B0042C18F /* scuffed-plastic-albedo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scuffed-plastic-albedo.png"; sourceTree = "<group>"; };
+		76D0BC9D1D5C484B0042C18F /* scuffed-plastic-metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scuffed-plastic-metal.png"; sourceTree = "<group>"; };
+		76D0BC9E1D5C484B0042C18F /* scuffed-plastic-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scuffed-plastic-normal.png"; sourceTree = "<group>"; };
+		76D0BC9F1D5C484B0042C18F /* scuffed-plastic-roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scuffed-plastic-roughness.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3CB93A231D4398F100623F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BF8B701D5C1D0B00AB450A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,6 +197,9 @@
 			isa = PBXGroup;
 			children = (
 				3CB93A281D4398F100623F09 /* PBROrbs */,
+				76BF8B681D5C1D0B00AB450A /* PBROrbs WatchKit */,
+				76BF8B771D5C1D0C00AB450A /* PBROrbs WatchKit Extension */,
+				76BF8B8C1D5C1D8200AB450A /* Shared */,
 				3CB93A271D4398F100623F09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +208,8 @@
 			isa = PBXGroup;
 			children = (
 				3CB93A261D4398F100623F09 /* PBROrbs.app */,
+				76BF8B671D5C1D0B00AB450A /* PBROrbs WatchKit.app */,
+				76BF8B731D5C1D0B00AB450A /* PBROrbs WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,7 +233,6 @@
 			children = (
 				3CB93A3E1D439B1000623F09 /* Environment */,
 				3CB93A411D439B1000623F09 /* Materials */,
-				3CB93A581D439B1000623F09 /* Objects */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -179,7 +305,113 @@
 			children = (
 				3CB93A591D439B1000623F09 /* sphere.obj */,
 			);
-			path = Objects;
+			name = Objects;
+			path = ../PBROrbs/Assets/Objects;
+			sourceTree = "<group>";
+		};
+		76BF8B681D5C1D0B00AB450A /* PBROrbs WatchKit */ = {
+			isa = PBXGroup;
+			children = (
+				76D0BC821D5C44CB0042C18F /* Assets */,
+				76BF8B691D5C1D0B00AB450A /* Interface.storyboard */,
+				76BF8B6C1D5C1D0B00AB450A /* Assets.xcassets */,
+				76BF8B6E1D5C1D0B00AB450A /* Info.plist */,
+			);
+			path = "PBROrbs WatchKit";
+			sourceTree = "<group>";
+		};
+		76BF8B771D5C1D0C00AB450A /* PBROrbs WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				76BF8B781D5C1D0C00AB450A /* InterfaceController.swift */,
+				76BF8B7A1D5C1D0C00AB450A /* art.scnassets */,
+				76BF8B7C1D5C1D0C00AB450A /* ExtensionDelegate.swift */,
+				76BF8B7E1D5C1D0C00AB450A /* Assets.xcassets */,
+				76BF8B801D5C1D0C00AB450A /* Info.plist */,
+			);
+			path = "PBROrbs WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		76BF8B8C1D5C1D8200AB450A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				76BF8B8D1D5C1DA100AB450A /* SceneManager.swift */,
+				3CB93A581D439B1000623F09 /* Objects */,
+			);
+			name = Shared;
+			path = "PBROrbs WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		76D0BC821D5C44CB0042C18F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				76D0BC891D5C484B0042C18F /* Environment */,
+				76D0BC8C1D5C484B0042C18F /* Materials */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		76D0BC891D5C484B0042C18F /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				76D0BC8A1D5C484B0042C18F /* spherical.jpg */,
+				76D0BC8B1D5C484B0042C18F /* sphericalBlurred.png */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		76D0BC8C1D5C484B0042C18F /* Materials */ = {
+			isa = PBXGroup;
+			children = (
+				76D0BC8D1D5C484B0042C18F /* bamboo-wood-semigloss */,
+				76D0BC921D5C484B0042C18F /* oakfloor2 */,
+				76D0BC961D5C484B0042C18F /* rustediron-streaks */,
+				76D0BC9B1D5C484B0042C18F /* scuffed-plastic */,
+			);
+			path = Materials;
+			sourceTree = "<group>";
+		};
+		76D0BC8D1D5C484B0042C18F /* bamboo-wood-semigloss */ = {
+			isa = PBXGroup;
+			children = (
+				76D0BC8E1D5C484B0042C18F /* bamboo-wood-semigloss-albedo.png */,
+				76D0BC8F1D5C484B0042C18F /* bamboo-wood-semigloss-metal.png */,
+				76D0BC901D5C484B0042C18F /* bamboo-wood-semigloss-normal.png */,
+				76D0BC911D5C484B0042C18F /* bamboo-wood-semigloss-roughness.png */,
+			);
+			path = "bamboo-wood-semigloss";
+			sourceTree = "<group>";
+		};
+		76D0BC921D5C484B0042C18F /* oakfloor2 */ = {
+			isa = PBXGroup;
+			children = (
+				76D0BC931D5C484B0042C18F /* oakfloor2-albedo.png */,
+				76D0BC941D5C484B0042C18F /* oakfloor2-normal.png */,
+				76D0BC951D5C484B0042C18F /* oakfloor2-roughness.png */,
+			);
+			path = oakfloor2;
+			sourceTree = "<group>";
+		};
+		76D0BC961D5C484B0042C18F /* rustediron-streaks */ = {
+			isa = PBXGroup;
+			children = (
+				76D0BC971D5C484B0042C18F /* rustediron-streaks-albedo.png */,
+				76D0BC981D5C484B0042C18F /* rustediron-streaks-metal.png */,
+				76D0BC991D5C484B0042C18F /* rustediron-streaks-normal.png */,
+				76D0BC9A1D5C484B0042C18F /* rustediron-streaks-roughness.png */,
+			);
+			path = "rustediron-streaks";
+			sourceTree = "<group>";
+		};
+		76D0BC9B1D5C484B0042C18F /* scuffed-plastic */ = {
+			isa = PBXGroup;
+			children = (
+				76D0BC9C1D5C484B0042C18F /* scuffed-plastic-albedo.png */,
+				76D0BC9D1D5C484B0042C18F /* scuffed-plastic-metal.png */,
+				76D0BC9E1D5C484B0042C18F /* scuffed-plastic-normal.png */,
+				76D0BC9F1D5C484B0042C18F /* scuffed-plastic-roughness.png */,
+			);
+			path = "scuffed-plastic";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,15 +424,51 @@
 				3CB93A221D4398F100623F09 /* Sources */,
 				3CB93A231D4398F100623F09 /* Frameworks */,
 				3CB93A241D4398F100623F09 /* Resources */,
+				76BF8B8B1D5C1D0C00AB450A /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				76BF8B821D5C1D0C00AB450A /* PBXTargetDependency */,
 			);
 			name = PBROrbs;
 			productName = PBROrbs;
 			productReference = 3CB93A261D4398F100623F09 /* PBROrbs.app */;
 			productType = "com.apple.product-type.application";
+		};
+		76BF8B661D5C1D0B00AB450A /* PBROrbs WatchKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76BF8B8A1D5C1D0C00AB450A /* Build configuration list for PBXNativeTarget "PBROrbs WatchKit" */;
+			buildPhases = (
+				76BF8B651D5C1D0B00AB450A /* Resources */,
+				76BF8B891D5C1D0C00AB450A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76BF8B761D5C1D0C00AB450A /* PBXTargetDependency */,
+			);
+			name = "PBROrbs WatchKit";
+			productName = "PBROrbs WatchKit";
+			productReference = 76BF8B671D5C1D0B00AB450A /* PBROrbs WatchKit.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		76BF8B721D5C1D0B00AB450A /* PBROrbs WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76BF8B881D5C1D0C00AB450A /* Build configuration list for PBXNativeTarget "PBROrbs WatchKit Extension" */;
+			buildPhases = (
+				76BF8B6F1D5C1D0B00AB450A /* Sources */,
+				76BF8B701D5C1D0B00AB450A /* Frameworks */,
+				76BF8B711D5C1D0B00AB450A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PBROrbs WatchKit Extension";
+			productName = "PBROrbs WatchKit Extension";
+			productReference = 76BF8B731D5C1D0B00AB450A /* PBROrbs WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -214,6 +482,17 @@
 				TargetAttributes = {
 					3CB93A251D4398F100623F09 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S364D33Q53;
+						ProvisioningStyle = Automatic;
+					};
+					76BF8B661D5C1D0B00AB450A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S364D33Q53;
+						ProvisioningStyle = Automatic;
+					};
+					76BF8B721D5C1D0B00AB450A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S364D33Q53;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -232,6 +511,8 @@
 			projectRoot = "";
 			targets = (
 				3CB93A251D4398F100623F09 /* PBROrbs */,
+				76BF8B661D5C1D0B00AB450A /* PBROrbs WatchKit */,
+				76BF8B721D5C1D0B00AB450A /* PBROrbs WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -265,6 +546,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		76BF8B651D5C1D0B00AB450A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BF8B6D1D5C1D0B00AB450A /* Assets.xcassets in Resources */,
+				76D0BCAC1D5C484C0042C18F /* oakfloor2-albedo.png in Resources */,
+				76D0BCA61D5C484B0042C18F /* bamboo-wood-semigloss-metal.png in Resources */,
+				76D0BCB61D5C484C0042C18F /* rustediron-streaks-normal.png in Resources */,
+				76D0BCBE1D5C484C0042C18F /* scuffed-plastic-normal.png in Resources */,
+				76D0BCAA1D5C484C0042C18F /* bamboo-wood-semigloss-roughness.png in Resources */,
+				76D0BCA41D5C484B0042C18F /* bamboo-wood-semigloss-albedo.png in Resources */,
+				76D0BCB21D5C484C0042C18F /* rustediron-streaks-albedo.png in Resources */,
+				76D0BCA81D5C484B0042C18F /* bamboo-wood-semigloss-normal.png in Resources */,
+				76D0BCB81D5C484C0042C18F /* rustediron-streaks-roughness.png in Resources */,
+				76D0BCAE1D5C484C0042C18F /* oakfloor2-normal.png in Resources */,
+				76D0BCA01D5C484B0042C18F /* spherical.jpg in Resources */,
+				76D0BCA21D5C484B0042C18F /* sphericalBlurred.png in Resources */,
+				76D0BCC01D5C484C0042C18F /* scuffed-plastic-roughness.png in Resources */,
+				76D0BCB41D5C484C0042C18F /* rustediron-streaks-metal.png in Resources */,
+				76D0BCB01D5C484C0042C18F /* oakfloor2-roughness.png in Resources */,
+				76D0BCBA1D5C484C0042C18F /* scuffed-plastic-albedo.png in Resources */,
+				76D0BCBC1D5C484C0042C18F /* scuffed-plastic-metal.png in Resources */,
+				76BF8B6B1D5C1D0B00AB450A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BF8B711D5C1D0B00AB450A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D0BCC11D5C484C0042C18F /* scuffed-plastic-roughness.png in Resources */,
+				76D0BCB31D5C484C0042C18F /* rustediron-streaks-albedo.png in Resources */,
+				76BF8B7F1D5C1D0C00AB450A /* Assets.xcassets in Resources */,
+				76D0BCB51D5C484C0042C18F /* rustediron-streaks-metal.png in Resources */,
+				76D0BCA31D5C484B0042C18F /* sphericalBlurred.png in Resources */,
+				76D0BCBF1D5C484C0042C18F /* scuffed-plastic-normal.png in Resources */,
+				76D0BCA51D5C484B0042C18F /* bamboo-wood-semigloss-albedo.png in Resources */,
+				7678E3171D5C1F5A00697B0E /* sphere.obj in Resources */,
+				76D0BCAB1D5C484C0042C18F /* bamboo-wood-semigloss-roughness.png in Resources */,
+				76D0BCA91D5C484C0042C18F /* bamboo-wood-semigloss-normal.png in Resources */,
+				76D0BCAF1D5C484C0042C18F /* oakfloor2-normal.png in Resources */,
+				76BF8B7B1D5C1D0C00AB450A /* art.scnassets in Resources */,
+				76D0BCB11D5C484C0042C18F /* oakfloor2-roughness.png in Resources */,
+				76D0BCB71D5C484C0042C18F /* rustediron-streaks-normal.png in Resources */,
+				76D0BCA11D5C484B0042C18F /* spherical.jpg in Resources */,
+				76D0BCBD1D5C484C0042C18F /* scuffed-plastic-metal.png in Resources */,
+				76D0BCAD1D5C484C0042C18F /* oakfloor2-albedo.png in Resources */,
+				76D0BCBB1D5C484C0042C18F /* scuffed-plastic-albedo.png in Resources */,
+				76D0BCB91D5C484C0042C18F /* rustediron-streaks-roughness.png in Resources */,
+				76D0BCA71D5C484B0042C18F /* bamboo-wood-semigloss-metal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,11 +607,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CB93A2E1D4398F100623F09 /* GameViewController.swift in Sources */,
+				76BF8B8E1D5C1DA100AB450A /* SceneManager.swift in Sources */,
 				3CB93A2A1D4398F100623F09 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		76BF8B6F1D5C1D0B00AB450A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BF8B7D1D5C1D0C00AB450A /* ExtensionDelegate.swift in Sources */,
+				76CC25D31D5C3DBD00315F02 /* SceneManager.swift in Sources */,
+				76BF8B791D5C1D0C00AB450A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76BF8B761D5C1D0C00AB450A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76BF8B721D5C1D0B00AB450A /* PBROrbs WatchKit Extension */;
+			targetProxy = 76BF8B751D5C1D0C00AB450A /* PBXContainerItemProxy */;
+		};
+		76BF8B821D5C1D0C00AB450A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76BF8B661D5C1D0B00AB450A /* PBROrbs WatchKit */;
+			targetProxy = 76BF8B811D5C1D0C00AB450A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3CB93A2F1D4398F100623F09 /* Main.storyboard */ = {
@@ -294,6 +652,14 @@
 				3CB93A351D4398F100623F09 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		76BF8B691D5C1D0B00AB450A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76BF8B6A1D5C1D0B00AB450A /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -392,6 +758,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S364D33Q53;
 				INFOPLIST_FILE = PBROrbs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MediumBlog.PBROrbs;
@@ -404,11 +771,90 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S364D33Q53;
 				INFOPLIST_FILE = PBROrbs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MediumBlog.PBROrbs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		76BF8B841D5C1D0C00AB450A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = S364D33Q53;
+				IBSC_MODULE = PBROrbs_WatchKit_Extension;
+				INFOPLIST_FILE = "PBROrbs WatchKit/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = MediumBlog.PBROrbs.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		76BF8B851D5C1D0C00AB450A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = S364D33Q53;
+				IBSC_MODULE = PBROrbs_WatchKit_Extension;
+				INFOPLIST_FILE = "PBROrbs WatchKit/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = MediumBlog.PBROrbs.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		76BF8B861D5C1D0C00AB450A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = S364D33Q53;
+				INFOPLIST_FILE = "PBROrbs WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MediumBlog.PBROrbs.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		76BF8B871D5C1D0C00AB450A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = S364D33Q53;
+				INFOPLIST_FILE = "PBROrbs WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MediumBlog.PBROrbs.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -429,6 +875,24 @@
 			buildConfigurations = (
 				3CB93A3B1D4398F100623F09 /* Debug */,
 				3CB93A3C1D4398F100623F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76BF8B881D5C1D0C00AB450A /* Build configuration list for PBXNativeTarget "PBROrbs WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BF8B861D5C1D0C00AB450A /* Debug */,
+				76BF8B871D5C1D0C00AB450A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76BF8B8A1D5C1D0C00AB450A /* Build configuration list for PBXNativeTarget "PBROrbs WatchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76BF8B841D5C1D0C00AB450A /* Debug */,
+				76BF8B851D5C1D0C00AB450A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
