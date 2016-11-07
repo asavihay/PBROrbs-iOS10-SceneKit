@@ -11,7 +11,7 @@ import QuartzCore
 import SceneKit
 
 class GameViewController: UIViewController {
-
+    
     let materialPrefixes : [String] = ["bamboo-wood-semigloss",
                                        "oakfloor2",
                                        "scuffed-plastic",
@@ -39,7 +39,7 @@ class GameViewController: UIViewController {
         
         // Declare that you intend to work in PBR shading mode
         // Note that this requires iOS 10 and up
-        material?.lightingModelName = SCNLightingModelPhysicallyBased
+        material?.lightingModel = SCNMaterial.LightingModel.physicallyBased
         
         // Setup the material maps for your object
         let materialFilePrefix = materialPrefixes[0];
@@ -58,7 +58,7 @@ class GameViewController: UIViewController {
         scene.lightingEnvironment.contents = env
         scene.lightingEnvironment.intensity = 2.0
         
-
+        
         // retrieve the SCNView
         let scnView = self.view as! SCNView
         
@@ -69,24 +69,24 @@ class GameViewController: UIViewController {
         scnView.allowsCameraControl = true
         
         
-        /* 
+        /*
          * The following was not a part of my blog post but are pretty easy to understand:
          * To make the Orb cool, we'll add rotation animation to it
          */
         
-        sphereNode.run(SCNAction.repeatForever(SCNAction.rotateBy(x: 1, y: 1, z: 1, duration: 10)))
+        sphereNode.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 1, y: 1, z: 1, duration: 10)))
     }
     
-    override func shouldAutorotate() -> Bool {
+    override var shouldAutorotate: Bool {
         return true
     }
     
-    override func prefersStatusBarHidden() -> Bool {
+    override var prefersStatusBarHidden: Bool {
         return true
     }
     
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        if UIDevice.current().userInterfaceIdiom == .phone {
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        if UIDevice.current.userInterfaceIdiom == .phone {
             return .allButUpsideDown
         } else {
             return .all
@@ -97,5 +97,5 @@ class GameViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Release any cached data, images, etc that aren't in use.
     }
-
+    
 }
